@@ -1,0 +1,56 @@
+timestamp,src_ip,dest_ip,http_method,uri,status_code,user_agent,label
+2026-11-02T12:00:01Z,192.168.1.101,10.0.0.5,GET,/index.html,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:00:03Z,192.168.1.102,10.0.0.5,GET,/about.html,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:00:05Z,192.168.1.103,10.0.0.5,GET,/static/css/main.css,200,Mozilla/5.0 (X11; Linux x86_64),normal
+2026-11-02T12:00:08Z,192.168.1.104,10.0.0.5,GET,/static/js/app.js,200,Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X),normal
+2026-11-02T12:00:10Z,192.168.1.105,10.0.0.5,GET,/images/logo.png,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:00:12Z,192.168.1.101,10.0.0.5,GET,/products/item?id=12,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:00:15Z,192.168.1.106,10.0.0.5,POST,/login,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:00:18Z,192.168.1.106,10.0.0.5,GET,/dashboard,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:00:20Z,192.168.1.107,10.0.0.5,GET,/faq,200,Mozilla/5.0 (Android 11; Mobile),normal
+2026-11-02T12:00:22Z,192.168.1.108,10.0.0.5,GET,/contact,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:00:25Z,192.168.1.109,10.0.0.5,POST,/contact/submit,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:00:27Z,192.168.1.110,10.0.0.5,GET,/blog/post-1,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:00:30Z,192.168.1.111,10.0.0.5,GET,/blog/post-2,200,Mozilla/5.0 (X11; Ubuntu; Linux x86_64),normal
+2026-11-02T12:00:33Z,192.168.1.102,10.0.0.5,GET,/products/item?id=45,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:00:35Z,192.168.1.112,10.0.0.5,GET,/cart,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:00:38Z,192.168.1.112,10.0.0.5,POST,/cart/add,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:00:40Z,192.168.1.113,10.0.0.5,GET,/services,200,Mozilla/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X),normal
+2026-11-02T12:00:43Z,192.168.1.114,10.0.0.5,GET,/api/v1/status,200,curl/7.68.0,normal
+2026-11-02T12:00:45Z,192.168.1.115,10.0.0.5,GET,/search?q=tutorials,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:00:48Z,192.168.1.116,10.0.0.5,GET,/profile/settings,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:00:50Z,192.168.1.117,10.0.0.5,GET,/static/images/banner.png,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:00:52Z,192.168.1.118,10.0.0.5,GET,/news/latest,200,Mozilla/5.0 (X11; Linux x86_64),normal
+2026-11-02T12:00:55Z,192.168.1.119,10.0.0.5,GET,/pricing,200,Mozilla/5.0 (iPhone; CPU iPhone OS 15_4 like Mac OS X),normal
+2026-11-02T12:00:58Z,192.168.1.120,10.0.0.5,POST,/subscribe,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:01:00Z,192.168.1.121,10.0.0.5,GET,/terms,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:01:03Z,192.168.1.122,10.0.0.5,GET,/privacy-policy,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:01:05Z,192.168.1.123,10.0.0.5,GET,/products/category/tech,200,Mozilla/5.0 (Android 12; Mobile),normal
+2026-11-02T12:01:08Z,192.168.1.124,10.0.0.5,GET,/static/fonts/inter.woff2,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:01:10Z,192.168.1.125,10.0.0.5,GET,/docs/guide.pdf,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:01:13Z,192.168.1.126,10.0.0.5,GET,/api/v1/user/me,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:01:15Z,192.168.1.127,10.0.0.5,GET,/checkout,200,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),normal
+2026-11-02T12:01:18Z,192.168.1.127,10.0.0.5,POST,/checkout/process,200,Mozilla/5.0 (iPhone; CPU iPhone OS 16_0 like Mac OS X),normal
+2026-11-02T12:01:20Z,192.168.1.128,10.0.0.5,GET,/support/tickets,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:01:23Z,192.168.1.129,10.0.0.5,GET,/team,200,Mozilla/5.0 (X11; Linux x86_64),normal
+2026-11-02T12:01:25Z,192.168.1.130,10.0.0.5,GET,/careers,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:01:28Z,192.168.1.131,10.0.0.5,GET,/events/2026,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:01:30Z,192.168.1.132,10.0.0.5,GET,/downloads/app-setup.exe,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:01:33Z,192.168.1.133,10.0.0.5,GET,/help/kb/101,200,Mozilla/5.0 (Android 11; Mobile),normal
+2026-11-02T12:01:35Z,192.168.1.134,10.0.0.5,GET,/favicon.ico,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:01:38Z,192.168.1.135,10.0.0.5,GET,/api/v1/metrics,200,Prometheus/2.30.0,normal
+2026-11-02T12:01:40Z,192.168.1.136,10.0.0.5,GET,/portfolio,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:01:43Z,192.168.1.137,10.0.0.5,GET,/testimonials,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:01:45Z,192.168.1.138,10.0.0.5,GET,/sitemap.xml,200,Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html),normal
+2026-11-02T12:01:48Z,192.168.1.139,10.0.0.5,GET,/robots.txt,200,Mozilla/5.0 (compatible; Bingbot/2.0; +http://www.bing.com/bingbot.htm),normal
+2026-11-02T12:01:50Z,192.168.1.140,10.0.0.5,GET,/partners,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:01:53Z,192.168.1.141,10.0.0.5,GET,/press-releases,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:01:55Z,192.168.1.142,10.0.0.5,POST,/feedback,200,Mozilla/5.0 (iPhone; CPU iPhone OS 16_1 like Mac OS X),normal
+2026-11-02T12:01:58Z,192.168.1.143,10.0.0.5,GET,/account/orders,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:02:00Z,192.168.1.144,10.0.0.5,GET,/static/images/avatar.jpg,200,Mozilla/5.0 (Windows NT 10.0; Win64; x64),normal
+2026-11-02T12:02:03Z,192.168.1.145,10.0.0.5,GET,/logout,200,Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7),normal
+2026-11-02T12:02:10Z,10.10.14.5,10.0.0.5,GET,"/products/item?id=1' UNION SELECT username, password FROM users--",500,sqlmap/1.6#stable,malicious
+2026-11-02T12:02:12Z,10.10.14.5,10.0.0.5,GET,/download?file=../../../../etc/passwd,403,python-requests/2.28.1,malicious
+2026-11-02T12:02:15Z,10.10.14.5,10.0.0.5,POST,"/search?q=<script>alert('XSS')</script>",200,Mozilla/5.0 (X11; Linux x86_64),malicious
+2026-11-02T12:02:18Z,10.10.14.5,10.0.0.5,GET,"/ping?host=127.0.0.1; cat /etc/shadow",500,Mozilla/5.0 (Windows NT 10.0; Win64; x64),malicious
+2026-11-02T12:02:20Z,10.10.14.5,10.0.0.5,GET,/admin/config.php,404,Gobuster/3.1.0,malicious
